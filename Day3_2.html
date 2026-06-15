@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <input type="text" id="inp1">
+    <input type="text" id="inp2">
+    <button id="btn">click me</button>
+
+    <script>
+        document.getElementById("btn").onclick = function() {
+            let x = Number(document.getElementById("inp1").value);
+            let y = Number(document.getElementById("inp2").value);
+            console.log(x + y);
+        }
+    </script>
+</body>
+</html>
